@@ -1,0 +1,37 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Addon Template",
+		"description": "",
+		"min_engine_version": [1, 20, 10],
+		"uuid": "abee2f80-1ecb-46ef-8e13-6956c5b9eabf",
+		"version": [66, 0, 0]
+	},
+	"metadata": {
+		"authors": ["JustRomain"]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "f2de7548-5c71-4643-bb5c-20641b88db04",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "47507a8e-a5b7-4429-be52-090f7f0daa64",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.11.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
