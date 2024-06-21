@@ -1,1 +1,3 @@
-console.warn('fqfqw')
+import './events/index';
+import './entities/index';
+

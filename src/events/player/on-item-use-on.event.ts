@@ -6,9 +6,7 @@ export default class PlayerUseItemOnEvent {
     public player: CustomPlayer;
 
     constructor(event : ItemUseOnAfterEvent) {
-
         if (!(event.source instanceof Player)) return
-
         this.item = event.itemStack
         this.player = event.source as CustomPlayer
         this.execute()
